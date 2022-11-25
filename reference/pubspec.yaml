@@ -1,0 +1,205 @@
+name: gsy_flutter_demo
+description: A new Flutter application by gsy
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+deferred-components:
+  - name: crane
+    libraries:
+      - package:gsy_flutter_demo/widget/anim_bubble_gum.dart
+      - package:gsy_flutter_demo/widget/anim_button/anim_button_demo_page.dart
+      - package:gsy_flutter_demo/widget/anim_progress_img_demo_page.dart
+      - package:gsy_flutter_demo/widget/anim_scan_demo_page.dart
+      - package:gsy_flutter_demo/widget/anim_text_demo_page.dart
+      - package:gsy_flutter_demo/widget/arc_seek_bar_demo_page.dart
+      - package:gsy_flutter_demo/widget/bottom_anim_nav_page.dart
+      - package:gsy_flutter_demo/widget/canvas_click_demo_page.dart
+      - package:gsy_flutter_demo/widget/chat_list_scroll_demo_page.dart
+      - package:gsy_flutter_demo/widget/chat_list_scroll_demo_page_2.dart
+      - package:gsy_flutter_demo/widget/color_progress_demo_page.dart
+      - package:gsy_flutter_demo/widget/drag_img_demo_page.dart
+      - package:gsy_flutter_demo/widget/gradient_text_demo_page.dart
+      - package:gsy_flutter_demo/widget/index_stack_drag_card_demo_page.dart
+      - package:gsy_flutter_demo/widget/index_stack_drag_card_demo_page2.dart
+      - package:gsy_flutter_demo/widget/link_sliver/link_sliver_demo_page.dart
+      - package:gsy_flutter_demo/widget/rich_text_demo_page2.dart
+      - package:gsy_flutter_demo/widget/route_demo_page.dart
+      - package:gsy_flutter_demo/widget/scroll_inner_content_demo_page.dart
+      - package:gsy_flutter_demo/widget/align_demo_page.dart
+      - package:gsy_flutter_demo/widget/anim_bg_demo_page.dart
+      - package:gsy_flutter_demo/widget/anim_tip_demo_page.dart
+      - package:gsy_flutter_demo/widget/anima_demo_page.dart
+      - package:gsy_flutter_demo/widget/anima_demo_page2.dart
+      - package:gsy_flutter_demo/widget/anima_demo_page4.dart
+      - package:gsy_flutter_demo/widget/anima_demo_page5.dart
+      - package:gsy_flutter_demo/widget/animation_container_demo_page.dart
+      - package:gsy_flutter_demo/widget/blur_demo_page.dart
+      - package:gsy_flutter_demo/widget/book_page/book_page.dart
+      - package:gsy_flutter_demo/widget/bubble/bubble_demo_page.dart
+      - package:gsy_flutter_demo/widget/card_item_page.dart
+      - package:gsy_flutter_demo/widget/clip_demo_page.dart
+      - package:gsy_flutter_demo/widget/cloud/cloud_demo_page.dart
+      - package:gsy_flutter_demo/widget/controller_demo_page.dart
+      - package:gsy_flutter_demo/widget/custom_multi_render_demo_page.dart
+      - package:gsy_flutter_demo/widget/custom_pull/refrsh_demo_page3.dart
+      - package:gsy_flutter_demo/widget/custom_sliver/scroll_header_demo_page.dart
+      - package:gsy_flutter_demo/widget/custom_viewport/custom_viewport_page.dart
+      - package:gsy_flutter_demo/widget/drop_select_menu/drop_select_demo_page.dart
+      - package:gsy_flutter_demo/widget/floating_touch_demo_page.dart
+      - package:gsy_flutter_demo/widget/honor_demo_page.dart
+      - package:gsy_flutter_demo/widget/input_bottom_demo_page.dart
+      - package:gsy_flutter_demo/widget/keyboard_demo_page.dart
+      - package:gsy_flutter_demo/widget/list_anim/list_anim_demo_page.dart
+      - package:gsy_flutter_demo/widget/list_anim_2/list_anim_demo_page.dart
+      - package:gsy_flutter_demo/widget/overflow_image_page.dart
+      - package:gsy_flutter_demo/widget/particle/particle_page.dart
+      - package:gsy_flutter_demo/widget/positioned_demo_page.dart
+      - package:gsy_flutter_demo/widget/refrsh_demo_page.dart
+      - package:gsy_flutter_demo/widget/refrsh_demo_page2.dart
+      - package:gsy_flutter_demo/widget/rich_text_demo_page.dart
+      - package:gsy_flutter_demo/widget/scroll_listener_demo_page.dart
+      - package:gsy_flutter_demo/widget/scroll_to_index_demo_page.dart
+      - package:gsy_flutter_demo/widget/scroll_to_index_demo_page2.dart
+      - package:gsy_flutter_demo/widget/silder_verify_page.dart
+      - package:gsy_flutter_demo/widget/sliver_list_demo_page.dart
+      - package:gsy_flutter_demo/widget/sliver_stick_demo_page.dart
+      - package:gsy_flutter_demo/widget/sliver_tab_demo_page.dart
+      - package:gsy_flutter_demo/widget/sliver_tab_demo_page2.dart
+      - package:gsy_flutter_demo/widget/sliver_tab/sliver_tab_demo_page3.dart
+      - package:gsy_flutter_demo/widget/statusbar_demo_page.dart
+      - package:gsy_flutter_demo/widget/stick/stick_demo_page.dart
+      - package:gsy_flutter_demo/widget/stick/stick_demo_page2.dart
+      - package:gsy_flutter_demo/widget/stick_sliver_list_demo_page.dart
+      - package:gsy_flutter_demo/widget/tag_demo_page.dart
+      - package:gsy_flutter_demo/widget/matrix_custom_painter_page.dart
+      - package:gsy_flutter_demo/widget/text_line_height_demo_page.dart
+      - package:gsy_flutter_demo/widget/text_size_demo_page.dart
+      - package:gsy_flutter_demo/widget/tick_click_demo_page.dart
+      - package:gsy_flutter_demo/widget/transform_demo_page.dart
+      - package:gsy_flutter_demo/widget/verification_code_input_demo_page.dart
+      - package:gsy_flutter_demo/widget/verification_code_input_demo_page2.dart
+      - package:gsy_flutter_demo/widget/viewpager_demo_page.dart
+      - package:gsy_flutter_demo/widget/wrap_content_page.dart
+      - package:gsy_flutter_demo/widget/shader_canvas_demo_page.dart
+      - package:gsy_flutter_demo/widget/anim_switch_layout_demo_page.dart
+      - package:gsy_flutter_demo/widget/vp_list_demo_page.dart
+      - package:gsy_flutter_demo/widget/card_perspective_demo_page.dart
+      - package:gsy_flutter_demo/widget/card_3d_demo_page.dart
+      - package:gsy_flutter_demo/widget/card_real_3d_demo_page.dart
+      - package:gsy_flutter_demo/widget/anim_juejin_logo_demo_page.dart
+      - package:gsy_flutter_demo/widget/dash_3d_demo_page.dart
+      - package:gsy_flutter_demo/widget/png_shadow_demo_page.dart
+      - package:gsy_flutter_demo/widget/transform_canvas_demo_page.dart
+      - package:gsy_flutter_demo/widget/juejin_3d_logo_demo_page.dart
+      - package:gsy_flutter_demo/widget/juejin_3d_box_logo_demo_page.dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  #cupertino_icons: ^1.0.3
+  scroll_to_index: 3.0.1
+  another_transformer_page_view: 2.0.0
+  simple_animations: 5.0.0+2
+  supercharged: 2.1.1
+  matrix_gesture_detector : 0.2.0-nullsafety.1
+  flutter_swiper_view : 1.1.8
+  animated_text_kit : 4.2.1
+  window_location_href: 1.0.0
+  rive: 0.9.1
+  animations: 2.0.4
+  zflutter:
+    git:
+      url: https://github.com/CarGuo/zflutter.git
+      ref: fd242237657f8b98a70127a09d26661028fa9ed6
+      path: zflutter/
+
+
+dev_dependencies:
+  build_runner: ^2.0.5
+  build_web_compilers: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - static/
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+  fonts:
+    - family: Canterbury
+      fonts:
+        - asset: assets/Canterbury.ttf
+
+    - family: HelloStockholm
+      fonts:
+        - asset: assets/HelloStockholm.otf
+
+    - family: Horizon
+      fonts:
+        - asset: assets/Horizon.otf
+
+    - family: Bobbers
+      fonts:
+        - asset: assets/Bobbers.ttf
+
+    - family: Agne
+      fonts:
+        - asset: assets/Agne.otf
+
+    - family: bglbt
+      fonts:
+        - asset: assets/bglbt.ttf
